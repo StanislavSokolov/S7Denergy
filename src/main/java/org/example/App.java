@@ -1,13 +1,33 @@
 package org.example;
 
+
+import org.example.model.Person;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
 /**
  * Hello world!
  *
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    public static void main( String[] args ) {
+
+        SessionFactory sessionFactory = new Configuration().addAnnotatedClass(Person.class).buildSessionFactory();
+        Session session = sessionFactory.getCurrentSession();
+
+        try {
+            session.beginTransaction();
+            System.out.println( "Hello World!" );
+            Person person = session.get(Person.class, 2);
+
+            System.out.println(person.getName());
+
+            session.getTransaction().commit();
+        } finally {
+            sessionFactory.close();
+        }
+
     }
 }
