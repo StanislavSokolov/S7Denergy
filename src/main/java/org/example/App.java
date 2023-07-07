@@ -19,11 +19,12 @@ public class App
 
         try {
             session.beginTransaction();
-            System.out.println( "Hello World!" );
-            Person person = session.get(Person.class, 2);
-
-            System.out.println(person.getName());
-
+            Person person0 = new Person("Hibernate0", 15, "email1@mail.ru", "SPb");
+            Person person1 = new Person("Hibernate1", 16, "email2@mail.ru", "SPb");
+            Person person2 = new Person("Hibernate2", 17, "email3@mail.ru", "SPb");
+            session.save(person0);
+            session.save(person1);
+            session.save(person2);
             session.getTransaction().commit();
         } finally {
             sessionFactory.close();
