@@ -28,10 +28,12 @@ public class App
             session.beginTransaction();
 
 
-            Person person = session.get(Person.class, 2010);
-            Item item = new Item("Brothers Karamazovs", person);
+            Person person = session.get(Person.class, 2011);
+            Item item = new Item("Brothers Karamazovs 2", person);
 
-            person.getItems().add(item);
+            person.setItems(new ArrayList<>(Collections.singletonList(item)));
+
+            session.save(person);
 
             session.save(item);
 
