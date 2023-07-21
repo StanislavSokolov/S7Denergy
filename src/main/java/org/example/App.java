@@ -28,10 +28,16 @@ public class App
             session.beginTransaction();
 
 
-            Person person = session.get(Person.class, 2011);
-            session.remove(person);
+            Person person = session.get(Person.class, 2014);
+            Item item = session.get(Item.class, 5);
 
-            person.getItems().forEach(i -> i.setOwner(null));
+            item.getOwner().getItems().remove(item);
+
+            item.setOwner(person);
+
+            person.getItems().add(item);
+
+
 
 //            Person person = new Person("Name", 30, "email@mail.ru", "Kudrovo");
 //            Item item = new Item("Test cascading item", person);

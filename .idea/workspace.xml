@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689928258417</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson52. Removed person.">
+      <created>1689928697853</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689928697853</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,7 +152,8 @@
     <MESSAGE value="Lesson49. Update, delete object. getId();." />
     <MESSAGE value="Lesson52. Added item." />
     <MESSAGE value="Lesson52. Added item (person.save, item.save)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson52. Added item (person.save, item.save)." />
+    <MESSAGE value="Lesson52. Removed person." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson52. Removed person." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1688721234983">
@@ -160,26 +168,26 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2729" y="411" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1688719658628" />
-    <state x="2840" y="208" key="CommitChangelistDialog2" timestamp="1689928257397">
+    <state x="2840" y="208" key="CommitChangelistDialog2" timestamp="1689928696928">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2840" y="208" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689928257397" />
-    <state width="1879" height="473" key="GridCell.Tab.0.bottom" timestamp="1689928678750">
+    <state x="2840" y="208" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689928696928" />
+    <state width="1879" height="473" key="GridCell.Tab.0.bottom" timestamp="1689929027566">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689928678750" />
-    <state width="1879" height="473" key="GridCell.Tab.0.center" timestamp="1689928678749">
+    <state width="1879" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689929027566" />
+    <state width="1879" height="473" key="GridCell.Tab.0.center" timestamp="1689929027565">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689928678749" />
-    <state width="1879" height="473" key="GridCell.Tab.0.left" timestamp="1689928678749">
+    <state width="1879" height="473" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689929027565" />
+    <state width="1879" height="473" key="GridCell.Tab.0.left" timestamp="1689929027565">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689928678749" />
-    <state width="1879" height="473" key="GridCell.Tab.0.right" timestamp="1689928678749">
+    <state width="1879" height="473" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689929027565" />
+    <state width="1879" height="473" key="GridCell.Tab.0.right" timestamp="1689929027565">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689928678749" />
+    <state width="1879" height="473" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689929027565" />
     <state x="2410" y="177" key="Maven.ArtifactSearchDialog" timestamp="1688721918450">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
