@@ -29,14 +29,9 @@ public class App
 
 
             Person person = session.get(Person.class, 2011);
-            Item item = new Item("Brothers Karamazovs 2", person);
+            session.remove(person);
 
-            person.setItems(new ArrayList<>(Collections.singletonList(item)));
-
-            session.save(person);
-
-            session.save(item);
-
+            person.getItems().forEach(i -> i.setOwner(null));
 
 //            Person person = new Person("Name", 30, "email@mail.ru", "Kudrovo");
 //            Item item = new Item("Test cascading item", person);
