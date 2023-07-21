@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00e52b15-4591-43d1-9e49-3f75ffb36509" name="Default Changelist" comment="Lesson49. Save object.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+    <list default="true" id="00e52b15-4591-43d1-9e49-3f75ffb36509" name="Default Changelist" comment="Lesson51. Simple HQL.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -148,22 +150,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2546" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1688735837867" />
-    <state width="1879" height="473" key="GridCell.Tab.0.bottom" timestamp="1688735809248">
+    <state width="1879" height="473" key="GridCell.Tab.0.bottom" timestamp="1689925240874">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1688735809248" />
-    <state width="1879" height="473" key="GridCell.Tab.0.center" timestamp="1688735809248">
+    <state width="1879" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689925240874" />
+    <state width="1879" height="473" key="GridCell.Tab.0.center" timestamp="1689925240874">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1688735809248" />
-    <state width="1879" height="473" key="GridCell.Tab.0.left" timestamp="1688735809248">
+    <state width="1879" height="473" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689925240874" />
+    <state width="1879" height="473" key="GridCell.Tab.0.left" timestamp="1689925240874">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1688735809248" />
-    <state width="1879" height="473" key="GridCell.Tab.0.right" timestamp="1688735809248">
+    <state width="1879" height="473" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689925240874" />
+    <state width="1879" height="473" key="GridCell.Tab.0.right" timestamp="1689925240874">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="473" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1688735809248" />
+    <state width="1879" height="473" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1689925240874" />
     <state x="2410" y="177" key="Maven.ArtifactSearchDialog" timestamp="1688721918450">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

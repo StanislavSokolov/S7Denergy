@@ -3,6 +3,8 @@ package org.example.model;
 import jdk.nashorn.internal.objects.annotations.Constructor;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "person")
@@ -20,6 +22,9 @@ public class Person {
     private String email;
     @Column(name = "address")
     private String address;
+
+    @OneToMany(mappedBy = "owner")
+    private List<Item> items;
 
     public Person(String name, int age, String email, String address) {
         this.name = name;
@@ -70,4 +75,30 @@ public class Person {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public void setItems(ArrayList<Item> items) {
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", email='" + email + '\'' +
+                ", address='" + address + '\'' +
+                ", items=" + items +
+                '}';
+    }
+//    public void addItem(Item item) {
+//        if (this.items == null) this.items = new ArrayList<>();
+//
+//        this.items.add(item);
+//        item.setOwner(this);
+//    }
+
 }
